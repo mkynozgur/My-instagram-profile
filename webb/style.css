@@ -1,0 +1,90 @@
+body{
+    background-color: white;
+    margin: 0;
+    font-family: 'Abel', sans-serif;
+}
+.menu{
+    background-color: white; 
+    height: 50px;
+    border-bottom: 1px solid rgb(108, 105, 105)
+}
+
+.icmenu{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 920px;
+    margin: auto;
+    align-items: center;
+}
+.arama input{
+    background-color: white;
+    outline: 0;
+    border-style: none;
+    border: 1px solid #ccc;
+    padding: 7px;
+    border-radius: 3px;
+}
+.login{
+    background-color: #0095f6;
+    color: #fff;
+}
+.sing_in{
+    background-color: #fff;
+    color: #0095f6;
+}
+.following{
+    background-color: #0095f6;
+    color: #fff;
+    margin-left: 20px;
+}
+.btn{
+    padding: 5px;
+    border-style: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 6px;
+    font-weight: 700;
+}
+.instagram {
+    color: #000000;
+}
+
+.discerceve{
+    max-width: 920px;
+    margin: auto;
+}
+
+.baslik{
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.profilfoto img{
+   border-radius: 80%;
+   margin-right: 100px;
+}
+.bio{
+    font-size: 18px;
+}
+.biobaslik{
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+   
+}
+
+.takipliste{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.takipliste a{
+    margin-right: 40px;
+    color: #0a0a0a;
+    text-decoration: none;
+}
